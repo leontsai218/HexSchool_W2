@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*----- css reset -----*/
+
+body {
+    line-height: 32px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 106px;
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 84px;
+}
+
+img {
+    vertical-align: middle
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pt-56 {
+    padding-top: 56px;
+}
+
+.mt-56 {
+    margin-top: 56px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.banner {
+    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 960px;
+    display: flex;
+    color: #fff;
+}
+
+.banner .icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .icons li {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.banner .icons img {
+    height: 60px;
+}
+
+.description {
+    padding: 20px 0 24px 0;
+    border-bottom: 1px solid #000;
+}
+
+.about {
+    padding-bottom: 56px;
+}
+
+.experience {
+    margin-top: 28px;
+}
+
+.experience li:not(:last-child) {
+    margin-bottom: 28px;
+}
+
+.experience li::before {
+    content: "";
+    display: inline-block;
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    background-color: #891818;
+    margin-right: 16px;
+}
+
+.brand {
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 160px;
+}
+
+.brand p {
+    font-size: 20px;
+    margin: 32px 0 68px 0;
+}
+
+.brand .brand-img-bottom {
+    margin-top: 40px;
+}
+
+.other-works {
+    padding-bottom: 144px;
+}
+
+.other-works p {
+    margin: 16px 0 56px 0;
+}
+
+.other-works-pictures:not(:last-child) {
+    margin-bottom: 48px;
+}
+
+.other-works .picture {
+    margin-right: 24px;
+}
+.other-works .picture h4 {
+    margin-top: 16px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 64px 0;
+    font-weight: normal;
+}
+
+.footer .contact-way {
+    margin-top: 16px;
+    line-height: 33px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;;
+}
